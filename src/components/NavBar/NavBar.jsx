@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import { HashLink } from "react-router-hash-link";
+// import { HashLink } from "react-router-hash-link";
 import { BrowserRouter as Router } from "react-router-dom";
-import logo from '../../assets/img/logo.png';
+// import logo from '../../assets/img/logo.png';
 import navIcon1 from '../../assets/img/nav-icon1.svg';
 import navIcon2 from '../../assets/img/nav-icon2.svg';
 import navIcon3 from '../../assets/img/nav-icon3.svg';
@@ -79,10 +79,10 @@ function NavBar() {
                   <img src={navIcon1} alt="linkedlin" />
                 </a>
                 <a href="https://web.facebook.com/rajindratharindu/">
-                  <img src={navIcon2} alt="" />
+                  <img src={navIcon2} alt="facebook" />
                 </a>
                 <a href="https://www.instagram.com/rajindratharindu/">
-                  <img src={navIcon3} alt="" />
+                  <img src={navIcon3} alt="instagram" />
                 </a>
               </div>
               {/* <HashLink to="#connect">

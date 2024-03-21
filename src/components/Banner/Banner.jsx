@@ -11,10 +11,11 @@ function Banner() {
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ["Web Developer"];
   const period = 2000;
 
   useEffect(() => {
+    const toRotate = ["Web Developer"]; // Move toRotate inside useEffect
+
     // Define the tick function here
     const tick = () => {
       let i = loopNum % toRotate.length;
@@ -50,7 +51,7 @@ function Banner() {
     return () => {
       clearInterval(ticker);
     };
-  }, [text, delta, loopNum, isDeleting, toRotate, period]);
+  }, [text, delta, loopNum, isDeleting, period]);
 
   return (
     <section className="banner" id="home">
