@@ -14,8 +14,8 @@ function Footer() {
           <Col size={12} sm={6}>
             {/* <img src={logo} alt="Logo" /> */}
             <p className="logo">Rajindra Tharindu</p>
-            <hr className="divider" />
-            <p className="logoSlogan">Code Wizard: Crafting Dreams</p>
+            {/* <hr className="divider" />
+            <p className="logoSlogan">Code Wizard: Crafting Dreams</p> */}
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">

@@ -35,8 +35,8 @@ function NavBar() {
           <Navbar.Brand href="/">
             {/* <img src={logo} alt="Logo" /> */}
             <p className="logo">Rajindra Tharindu</p>
-            <hr className="divider" />
-            <p className="logoSlogan">Code Wizard: Crafting Dreams</p>
+            {/* <hr className="divider" />
+            <p className="logoSlogan">Code Wizard: Crafting Dreams</p> */}
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>

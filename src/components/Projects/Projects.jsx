@@ -40,15 +40,15 @@ function Projects() {
                       className="nav-pills mb-5 justify-content-center align-items-center"
                       id="pills-tab"
                     >
-                      <Nav.Item>
+                      {/* <Nav.Item>
                         <Nav.Link eventKey="first">Tab 1</Nav.Link>
-                      </Nav.Item>
-                      <Nav.Item>
+                      </Nav.Item> */}
+                      {/* <Nav.Item>
                         <Nav.Link eventKey="second">Tab 2</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
                         <Nav.Link eventKey="third">Tab 3</Nav.Link>
-                      </Nav.Item>
+                      </Nav.Item> */}
                     </Nav>
                     <Tab.Content
                       id="slideInUp"
@@ -56,17 +56,17 @@ function Projects() {
                         isVisible ? "animate__animated animate__slideInUp" : ""
                       }
                     >
-                      <Tab.Pane eventKey="first">
-                        <Row>
-                          {projects.map((project, index) => {
-                            return <ProjectCard key={index} {...project} />;
-                          })}
-                        </Row>
-                      </Tab.Pane>
-                      <Tab.Pane eventKey="section">
+                      {/* <Tab.Pane eventKey="first"> */}
+                      <Row>
+                        {projects.map((project, index) => {
+                          return <ProjectCard key={index} {...project} />;
+                        })}
+                      </Row>
+                      {/* </Tab.Pane> */}
+                      {/* <Tab.Pane eventKey="section">
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
-                      </Tab.Pane>
+                      </Tab.Pane> */}
                     </Tab.Content>
                   </Tab.Container>
                 </div>
